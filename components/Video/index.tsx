@@ -14,7 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="See Our Mission in Action"
-          paragraph="Watch our video to witness our dedication in aiding children's health through early disorder detection."
+          paragraph="Watch our video to witness our dedication in aiding Mental health through early disorder detection."
           center
           mb="80px"
         />
@@ -57,6 +57,7 @@ const Video = () => {
         videoId="L61p2uyiMSo"
         onClose={() => setOpen(false)}
       />
+      
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
     </section>

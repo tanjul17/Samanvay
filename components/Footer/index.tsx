@@ -15,17 +15,17 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo5.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
+                    className=" dark:hidden"
+                    width={100}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo6.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
+                    className="hidden dark:block"
+                    width={100}
                     height={30}
                   />
                 </Link>
@@ -112,7 +112,7 @@ const Footer = () => {
                       href="/pricing"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Child Health Assessment 
+                      Mental Health Assessment 
                     </a>
                   </li>
                   <li>
@@ -199,9 +199,8 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Built by Sheetal and Pushpraj from Medistats 
+              Built by Tanjul and Pushpraj from MiLLi.
               <a href="" rel="nofollow noopener">
-                
               </a>
             </p>
           </div>

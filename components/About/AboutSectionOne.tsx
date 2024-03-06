@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="We're passionate about making a positive impact on the lives of children and their families."
-                paragraph="Our mission is simple yet profound: to empower parents and caregivers with the knowledge and tools they need to make informed decisions about their child's health and development."
+                title="We're passionate about making a positive impact on the lives of Human and their families."
+                paragraph="Our mission is simple yet profound: to empower parents and caregivers with the knowledge and tools they need to make informed decisions about their Mental  health and development."
                 mb="44px"
               />
 

@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Child Health Assessment"
-          paragraph="Take assessments designed to evaluate your child's well-being and potential risks. Gain valuable insights to support your child's health and development."
+          title="Mental Health Assessment"
+          paragraph="Take assessments designed to evaluate your Mental illness well-being and potential risks. Gain valuable insights to support your Mental health and development."
           center
           width="665px"
         />

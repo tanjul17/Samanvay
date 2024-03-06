@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="Exploring the Robust Features of Our Child Health Assessment Tool"
+            paragraph="Exploring the Robust Features of Our Mental Health Assessment Tool"
             center
           />
 
