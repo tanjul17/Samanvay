@@ -55,13 +55,15 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Video Upload
+              Daily Dairy
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
+        {/* <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3"> */}
+        <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-1">
+
+          {/* <PricingBox
             packageName="ADHD"
             price={isMonthly ? "free" : "free"}
             duration={isMonthly ? "mo" : "yr"}
@@ -87,10 +89,10 @@ const Pricing = () => {
             <OfferList text="Parent's Guide" status="active" />
             <OfferList text="Community Support" status="active" />
             <OfferList text="Professional Advice" status="active" />
-          </PricingBox>
+          </PricingBox> */}
           <PricingBox
             packageName="Dyslexia"
-            price={isMonthly ? "free" : "free"}
+            // price={isMonthly ? "free" : "free"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Decode the challenges of dyslexia, uncovering insights into causes and symptoms."
           >

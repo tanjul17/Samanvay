@@ -62,16 +62,16 @@ const menuData: Menu[] = [
       // },
       {
         id: 46,
-        title: "Sign In",
-        path: "/signin",
+        title: "Login",
+        path: "/sign-in",
         newTab: false,
       },
-      {
-        id: 47,
-        title: "Sign Up",
-        path: "/signup",
-        newTab: false,
-      },
+      // {
+      //   id: 47,
+      //   title: "Sign Up",
+      //   path: "/sign-up",
+      //   newTab: false,
+      // },
     ],
   },
 ];
