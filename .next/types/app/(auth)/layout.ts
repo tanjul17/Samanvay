@@ -1,4 +1,4 @@
-// File: D:\Users\sarat\OneDrive\Desktop\EPIC\New folder\MiLLI\app\(auth)\layout.tsx
+// File: F:\Major Projects\EPICS\EPICS-SAMANVAY\app\(auth)\layout.tsx
 import * as entry from '../../../../app/(auth)/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -868,9 +868,6 @@ input#checkboxLabel:checked ~ .box span{
 .h-px{
   height: 1px;
 }
-.h-screen{
-  height: 100vh;
-}
 .min-h-screen{
   min-height: 100vh;
 }
@@ -954,9 +951,6 @@ input#checkboxLabel:checked ~ .box span{
 }
 .max-w-full{
   max-width: 100%;
-}
-.flex-1{
-  flex: 1 1 0%;
 }
 .translate-x-full{
   --tw-translate-x: 100%;
@@ -2169,12 +2163,12 @@ input#checkboxLabel:checked ~ .box span{
     max-width: 130px;
   }
 
-  .lg\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:gap-x-8{
