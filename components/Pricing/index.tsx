@@ -92,7 +92,7 @@ const Pricing = () => {
           </PricingBox> */}
           <PricingBox
             packageName="General Test"
-            // price={isMonthly ? "free" : "free"}
+            price={isMonthly ? "free" : "free"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Decode the challenges of your mental illness, uncovering insights into causes and symptoms."
           >
