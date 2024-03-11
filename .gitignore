@@ -8,6 +8,14 @@
 # production
 /build
 
+webpack.*.hot-update.js
+
+.next/static/webpack/*.webpack.hot-update.json
+.next/static/webpack/*.webpack.hot-update.js
+.next/static/webpack/app/page.*.hot-update.js
+.next/static/webpack/*.webpack.hot-update.json
+.next/static/webpack/*.webpack.hot-update.json
+
 # misc
 .DS_Store
 .env.local

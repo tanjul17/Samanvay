@@ -91,16 +91,16 @@ const Pricing = () => {
             <OfferList text="Professional Advice" status="active" />
           </PricingBox> */}
           <PricingBox
-            packageName="Dyslexia"
+            packageName="General Test"
             // price={isMonthly ? "free" : "free"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Decode the challenges of dyslexia, uncovering insights into causes and symptoms."
+            subtitle="Decode the challenges of your mental illness, uncovering insights into causes and symptoms."
           >
             <OfferList text="Free MCQ Test" status="active" />
-            <OfferList text="Video Submissions" status="active" />
+            <OfferList text="Yoga Suggestions" status="active" />
             <OfferList text="Early Intervention" status="active" />
-            <OfferList text="Parent's Guide" status="active" />
-            <OfferList text="Community Support" status="active" />
+            <OfferList text="Parent's Support " status="active" />
+            {/* <OfferList text="" status="active" /> */}
             <OfferList text="Professional Advice" status="active" />
           </PricingBox>
         </div>
