@@ -16,7 +16,6 @@ const ContactPage = () => {
         pageName="Contact Page"
         description="Contact us for better  | Your Child's Future, Our Focus: Early Disorder Evaluation."
       />
-
       <Contact />
     </>
   );

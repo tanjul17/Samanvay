@@ -2,11 +2,9 @@ import React from "react"
 
 const layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="flex-center">
-            <div className="justify-center overflow-hidden ">
+            <div className="overflow-hidden flex justify-center overflow-x-hidden h-30 w-45 p-20 mt-5">
             {children}
             </div>
-        </div>
     )
 }
 export default layout

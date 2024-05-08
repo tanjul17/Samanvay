@@ -28,13 +28,12 @@ export default function Home() {
       <ContactD />
       <Features />
       <Video />
-      <Brands />
+      {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
       <Blog />
       <Contact />
-
     </>
   );
 }
