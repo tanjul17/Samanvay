@@ -22,7 +22,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://663bd404c7b6c526db45c8db--funny-conkies-8be3c3.netlify.app/"
+                    href="https://663bdacac7b6c52cd445c747--verdant-basbousa-dc8e1c.netlify.app/"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Take Full Test
