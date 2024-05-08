@@ -27,7 +27,7 @@ export default function Home() {
       <Pricing />
       <ContactD />
       <Features />
-      <Video />
+      {/* <Video /> */}
       {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />

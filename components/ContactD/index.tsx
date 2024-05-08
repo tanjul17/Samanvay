@@ -1,5 +1,6 @@
+'use client'
+import { use } from "react";
 import NewsLatterBox from "./NewsLatterBox";
-
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
@@ -12,10 +13,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Share your thoughts 
+                Share your thoughts
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                How were you feeling today? 
+                How were you feeling today?
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -49,7 +50,7 @@ const Contact = () => {
                       />
                     </div>
                   </div> */}
-                  <div className="w-full px-4">
+                  {/* <div className="w-full px-4">
                     <div className="mb-8">
                       <label
                         htmlFor="message"
@@ -64,11 +65,22 @@ const Contact = () => {
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       ></textarea>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="w-full px-4">
-                    <button className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90">
+                    {/* <button
+                      className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90"
+                      onClick={() => { window.location.href = "https://submit.jotform.com/241285800473455"; }}
+                    >
                       Submit Message
-                    </button>
+                    </button> */}
+
+                    <a href="https://submit.jotform.com/241285800473455" className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90" target="_blank">
+                      {/* <button */}
+                        {/* // className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90"> */}
+                        Click to Share
+                      {/* // </button> */}
+                    </a>
+
                   </div>
                 </div>
               </form>
@@ -77,9 +89,9 @@ const Contact = () => {
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <NewsLatterBox />
           </div>
-        </div>
-      </div>
-    </section>
+        </div >
+      </div >
+    </section >
   );
 };
 
